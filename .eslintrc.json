@@ -1,0 +1,29 @@
+{
+    "root": true,
+    "extends": "eslint:recommended",
+    "rules": {
+        "no-console": 0,
+        "no-debugger": 0
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "globals": {
+        "_": false,
+        "altspace": false,
+        "alt": false,
+        "THREE": false,
+        "TWEEN": false,
+        "Promise": false,
+        "Utils": true,
+        "Card": true,
+        "Deck": true,
+        "Game": true,
+        "Ruleset": true,
+        "Player": true,
+        "Pot": true,
+        "SoundEngine": true,
+        "BufferLoader": true
+    }
+}

@@ -1,0 +1,11 @@
+root = true
+
+[*]
+indent_style = space
+end_of_line = lf
+
+[*.js]
+indent_size = 4;
+
+[*.{html,css}]
+indent_size = 2;

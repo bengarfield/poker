@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>AltPokerSpace</title>
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <script src="lib/three.js"></script>
+    <script src="https://cdn.rawgit.com/mrdoob/three.js/r74/build/three.min.js"></script>
+    <script src="https://cdn.rawgit.com/mrdoob/three.js/r74/examples/js/loaders/MTLLoader.js"></script>
+    <script src="https://cdn.rawgit.com/mrdoob/three.js/r74/examples/js/loaders/OBJLoader.js"></script>
+    <script src="lib/altspace.min.js"></script>
+    <script src="lib/Tween.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.0/lodash.js"></script>
+
+    <script src="js/utils.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/deck.js"></script>
+    <script src="js/ruleset.js"></script>
+    <script src="js/pot.js"></script>
+    <script src="js/pokerRules.js"></script>
+    <script src="js/texasHoldEmRules.js"></script>
+    <script src="js/sound.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/pokerUI.js"></script>
+    <script src="js/client-sync.js"></script>
+  </head>
+  <body>
+    <!-- <button id="refreshButton" onclick="location.reload()">Refresh page on my client</button> -->
+    <svg>
+      <!-- <text class="title" y="40px" text-anchor="middle" x="50%">Texas Hold 'em -->
+      <!-- </text> -->
+      <text class="credits" y="80px" text-anchor="middle" x="50%">Created by Fox B. (foxgamestudios.com)</text> <text class="credits" y="110px" text-anchor="middle" x="50%">Models & Textures by</text><text class="credits" y="140px" text-anchor="middle" x="50%"> Brian Lindenhof (Twitter: @TheShadowBrain)
+      </text>
+      <text class="loading" y="210px" text-anchor="middle" x="50%">Loading assets...
+      </text>
+      <text class="winner" y="100px" text-anchor="middle" x="50%" style="display:none;">Congratulations to Fox!</text>
+    </svg>
+    <!-- <button id="newGameButton" class="" onclick="window.location.href = window.location.href.split('?')[0];">Play again?</button> -->
+  </body>
+</html>

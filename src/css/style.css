@@ -1,0 +1,47 @@
+svg {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  font: bold 50px 'Arial';
+  width: 100%;
+  height: 100%;
+}
+
+svg text {
+  fill: white;
+  stroke: black;
+  font: bold 30px 'Arial';
+  stroke-width:2px;
+  // stroke-dasharray: 2,2;
+  stroke-linejoin: round;
+}
+
+svg text.credits {
+  font: bold 20px 'Arial';
+  stroke-width: 1px;
+}
+
+svg text.title {
+  font: bold 42px 'Arial'
+}
+
+svg text.gamePhase {
+  display: none;
+}
+
+#newGameButton.visible {
+  display: block;
+}
+
+#newGameButton {
+  display: none;
+  width: 300px;
+  height: 150px;
+  position: fixed;
+  top: 250px;
+  left: calc(50% - 150px);
+  font-size: 32px;
+  color: white;
+  background-color: black;
+  border-radius: 25px;
+}
